@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Work+Sans:wght@300&display=swap');
+
+
+/* CSS colors
+
+lighter blue - #80AFBF
+blue - #5991A6
+brown - #3C3332
+lighter brown - #926F5B
+nude - #D1B8A4
+#04385Dff
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background: linear-gradient(#5991A6 15%, #fff 85%);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: baseline;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: Varela Round, sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 4px #3C3332;
+    font-size: 35px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.menu-li {
+    list-style: none;
+}
+
+.menu-li a {
+    text-decoration: none;
+    font-family: Varela Round, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #3C3332;
+    font-size: 25px;
+}
+
+.main {
+    padding: 35px;
+    background-image: url(/assets/images/background.jpeg);
+    background-size: cover;
+}
+
+h2, h3 {
+    padding: 10px;
+    color: #04385Dff;
+    font-weight: bold;
+    font-family: Varela Round, sans-serif;
+    text-decoration: 2px underline;
+    text-shadow: 2px 2px 3px #80AFBF;
+}
+
+p {
+    padding: 10px;
+    color: #312a29;
+    font-weight: bold;
+    width: 50%;
+    text-shadow: 1px 1px 2px #b1937a;
+}
+
+footer {
+    height: 100px;
+    padding: 30px;
+    background: linear-gradient(#fff 15%, #5991A6 85%);
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 40px;
+    margin-top: 30px;
+    color: red;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #04385Dff;
+    text-shadow: 3px 3px 4px #5991A6;
+}
