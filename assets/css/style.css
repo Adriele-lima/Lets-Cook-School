@@ -118,14 +118,13 @@ main{
     text-align: justify;
 }
 
-
+/*
 .main-photo {
-    background-image: url('/assets/images/main1.jpeg');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    float: left;
-}
+    width: 550px;
+    height: 500px;
+    margin-top: -870px;
+    margin-left: 800px;
+}*/
 
 h2, h3 {
     padding: 10px;
