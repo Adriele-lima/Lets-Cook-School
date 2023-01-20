@@ -43,8 +43,8 @@ main{
 }
 
 .map {
-    margin-top: 20px;
-    margin-left: 15px;
+    margin-top: 30px;
+    margin-left: 185px;
 }
 
 .menu {
@@ -66,65 +66,68 @@ main{
 }
 
 .main {
-    padding: 35px;
-    background-image: url(/assets/images/background.jpeg);
+    background-image: url(/assets/images/background-home.png);
     background-size: cover;
+}
+
+.main2 {
+    padding: 45px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-flow: column wrap;
+    gap: 35px;
+    align-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .about {
     padding: 10px;
-    background-color: #e3e2de;
-    width: 70%;
+    background-color: #74412065;
+    width: 60%;
+    text-align: center;
     border-radius: 15px;
     border: 2px solid #9d9699;
     border-style: ridge;
-    box-shadow: 10px 10px #74412065;
-    text-align: justify;
+    box-shadow: 10px 10px #9d969983;
 }
 
 .opening-time {
     padding: 10px;
-    background-color: #e3e2de;
+    background-color: #74412065;
     width: 40%;
     border-radius: 15px;
     border: 2px solid #9d9699;
     border-style: ridge;
-    box-shadow: 10px 10px #74412065;
-    text-align: justify;
+    box-shadow: 10px 10px #9d969983;
+    text-align: center;
 }
 
 .phone {
     padding: 10px;
-    background-color: #e3e2de;
+    background-color: #74412065;
     width: 40%;
     border-radius: 15px;
     border: 2px solid #9d9699;
     border-style: ridge;
-    box-shadow: 10px 10px #74412065;
-    text-align: justify;
+    box-shadow: 10px 10px #9d969983;
+    text-align: center;
 }
 
 .address {
     padding: 10px;
-    background-color: #e3e2de;
+    background-color: #74412065;
     width: 40%;
     border-radius: 15px;
     border: 2px solid #9d9699;
     border-style: ridge;
-    box-shadow: 10px 10px #74412065;
-    text-align: justify;
+    box-shadow: 10px 10px #9d969983;
+    text-align: center;
+    margin-left: 180px;
 }
-
-/*
-.main-photo {
-    width: 550px;
-    height: 500px;
-    margin-top: -870px;
-    margin-left: 800px;
-}*/
 
 h2, h3 {
     padding: 10px;
@@ -144,23 +147,21 @@ p {
 }
 
 footer {
-    height: 80px;
+    height: 40px;
     padding: 20px;
-    background-color: #3C3332;
-    border-top: 4px groove #926F5B;
+    background-color: transparent; 
 }
 
 .social-media {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
     gap: 60px;
     font-size: 40px;
 }
 
 .social-media a{
     text-decoration: none;
-    color: #9d9699;
+    color: #312a29;
 }
 
 .list {
@@ -187,7 +188,7 @@ footer {
 
 
 .background-signup {
-    padding: 25px;
+    padding: 30px;
     background-image: url(/assets/images/chef.jpg);
     height: 1000px;
     width: 1810px;
