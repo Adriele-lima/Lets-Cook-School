@@ -34,6 +34,15 @@ main{
     border-top: 4px groove #926F5B;
 }
 
+.home-background {
+    background-image: url(/assets/images/kitchen.jpeg);
+    background-size: cover;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 .header a {
     text-decoration: none;
     font-family: Varela Round, sans-serif;
@@ -65,18 +74,12 @@ main{
     font-size: 25px;
 }
 
-.main {
-    background-image: url(/assets/images/background-home.png);
-    background-size: cover;
-}
-
 .main2 {
     padding: 45px;
     display: flex;
     flex-flow: column wrap;
     gap: 35px;
     align-content: flex-end;
-    margin-bottom: 100px;
 }
 
 .wrap {
@@ -147,8 +150,8 @@ p {
 }
 
 footer {
-    height: 40px;
-    padding: 20px;
+    height: 10px;
+    padding: 10px;
     background-color: transparent; 
 }
 
@@ -188,11 +191,9 @@ footer {
 
 
 .background-signup {
-    padding: 30px;
     background-image: url(/assets/images/chef.jpg);
-    height: 1000px;
-    width: 1810px;
     background-size: cover;
+    height: 1200PX;
 }
 
 .sign-up-box {
