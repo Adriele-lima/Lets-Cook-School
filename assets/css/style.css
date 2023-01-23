@@ -22,6 +22,21 @@ main{
     border-top: 4px groove #926F5B;
 }
 
+h2 {
+    padding: 10px;
+    color: #f5f2f2;
+    font-weight: bold;
+    font-family: Varela Round, sans-serif;
+    text-decoration: 2px underline;
+    text-shadow: 3px 3px 4px #926F5B;
+}
+
+p {
+    padding: 10px;
+    color: #f5f2f2;
+    font-size: 20px;
+}
+
 .home-background {
     background-image: url(/assets/images/kitchen.jpeg);
     background-size: cover;
@@ -82,8 +97,7 @@ main{
     width: 40%;
     text-align: center;
     border-radius: 15px;
-    border: 2px solid #9d9699;
-    border-style: ridge;
+    border: 2px ridge #9d9699;
     box-shadow: 10px 10px #9d969983;
 }
 
@@ -92,8 +106,7 @@ main{
     background-color: #61544be3;
     width: 40%;
     border-radius: 15px;
-    border: 2px solid #9d9699;
-    border-style: ridge;
+    border: 2px ridge #9d9699;
     box-shadow: 10px 10px #9d969983;
     text-align: center;
 }
@@ -103,8 +116,7 @@ main{
     background-color: #61544be3;
     width: 40%;
     border-radius: 15px;
-    border: 2px solid #9d9699;
-    border-style: ridge;
+    border: 2px ridge #9d9699;
     box-shadow: 10px 10px #9d969983;
     text-align: center;
 }
@@ -114,57 +126,111 @@ main{
     background-color: #61544be3;
     width: 40%;
     border-radius: 15px;
-    border: 2px solid #9d9699;
-    border-style: ridge;
+    border: 2px ridge #9d9699;
     box-shadow: 10px 10px #9d969983;
     text-align: center;
 }
 
-h2 {
-    padding: 10px;
-    color: #f5f2f2;
-    font-weight: bold;
-    font-family: Varela Round, sans-serif;
-    text-decoration: 2px underline;
-    text-shadow: 2px 2px 3px rgba(39, 34, 34, 0.664);
-}
-
-p {
-    padding: 10px;
-    color: #f5f2f2;
-    font-weight: bold;
-    text-shadow: 2px 2px 3px rgba(39, 34, 34, 0.664);;
-    font-size: 20px;
-}
-
-footer {
-    height: 10px;
-    padding: 10px;
-    background-color: transparent; 
-}
-
-.social-media {
+.main-courses {
+    padding: 30px;
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-evenly;
-    gap: 60px;
-    font-size: 40px;
 }
 
-.social-media a{
+.main-courses h2 {
     text-decoration: none;
-    color: #312a29;
+    font-family: Varela Round, sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 4px #926F5B;
+    font-size: 35px;     
 }
 
 .list {
-    padding: 30px;
-    color: #312a29;
-    font-weight: bold;
-    width: 50%;
-    text-shadow: 1px 1px 2px #b1937a;
+    padding: 25PX;
+    color: #f5f2f2;
+    font-size: 20px;
 }
 
-.main-courses {
-    padding: 30px;
+.bread {
+    padding: 10px;
+    width: 45%;
+    text-align: left;
+    border: 2px ridge #9d9699;
+    border-radius: 15px;
+    box-shadow: 10px 10px #9d969983;
+    background-color: #3C3332;
+}
+
+.bread-photo {
+    background-image: url(/assets/images/bread.jpeg);
+    width: 45%;
+    height: 560px;
+    border: 2px ridge #9d9699;
+    border-radius: 15px;
+    box-shadow: 10px 10px #9d969983;
+    background-size: cover;
+}
+
+.pasta {
+    padding: 10px;
+    width: 45%;
+    text-align: left;
+    border: 2px ridge #9d9699;
+    border-radius: 15px;
+    box-shadow: 10px 10px #9d969983;
+    background-color: #3C3332;
+}
+
+.pasta-photo {
+    background-image: url(/assets/images/Pasta.jpeg);
+    width: 45%;
+    height: 560px;
+    border: 2px ridge #9d9699;
+    border-radius: 15px;
+    box-shadow: 10px 10px #9d969983;
+    background-size: cover;
+}
+
+.seafood {
+    padding: 10px;
+    width: 45%;
+    text-align: left;
+    border: 2px ridge #9d9699;
+    border-radius: 15px;
+    box-shadow: 10px 10px #9d969983;
+    background-color: #3C3332;
+}
+
+.seafood-photo {
+    background-image: url(/assets/images/seafood.jpeg);
+    width: 45%;
+    height: 560px;
+    border: 2px ridge #9d9699;
+    border-radius: 15px;
+    box-shadow: 10px 10px #9d969983;
+    background-size: cover;
+}
+
+.dessert {
+    padding: 10px;
+    width: 45%;
+    text-align: left;
+    border: 2px ridge #9d9699;
+    border-radius: 15px;
+    box-shadow: 10px 10px #9d969983;
+    background-color: #3C3332;
+}
+
+.dessert-photo {
+    background-image: url(/assets/images/dessert.jpg);
+    width: 45%;
+    height: 560px;
+    border: 2px ridge #9d9699;
+    border-radius: 15px;
+    box-shadow: 10px 10px #9d969983;
+    background-size: cover;
 }
 
 .small {
@@ -172,6 +238,7 @@ footer {
     width: 50%;
     font-size: 15px;
 }
+
 
 .main-sign-up{
     padding: 20px;
@@ -245,3 +312,20 @@ footer {
     border: 1px solid #312a29;
 }
 
+footer {
+    height: 10px;
+    padding: 10px;
+    background-color: transparent; 
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+    font-size: 40px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #312a29;
+}
