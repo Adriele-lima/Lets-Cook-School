@@ -38,7 +38,7 @@ p {
 }
 
 .home-background {
-    background-image: url(/assets/images/kitchen.jpeg);
+    background-image: url(../assets/images/kitchen.jpeg);
     background-size: cover;
     height: max-content;
     padding: 0;
@@ -134,7 +134,7 @@ p {
 }
 
 .bread-photo {
-    background-image: url(/assets/images/bread.jpeg);
+    background-image: url(../assets/images/bread.jpeg);
     width: 45%;
     height: 560px;
     border: 2px ridge #9d9699;
@@ -144,7 +144,7 @@ p {
 }
 
 .pasta-photo {
-    background-image: url(/assets/images/Pasta.jpeg);
+    background-image: url(../assets/images/Pasta.jpeg);
     width: 45%;
     height: 560px;
     border: 2px ridge #9d9699;
@@ -154,7 +154,7 @@ p {
 }
 
 .seafood-photo {
-    background-image: url(/assets/images/seafood.jpeg);
+    background-image: url(../assets/images/seafood.jpeg);
     width: 45%;
     height: 560px;
     border: 2px ridge #9d9699;
@@ -164,7 +164,7 @@ p {
 }
 
 .dessert-photo {
-    background-image: url(/assets/images/dessert.jpg);
+    background-image: url(../assets/images/dessert.jpg);
     width: 45%;
     height: 560px;
     border: 2px ridge #9d9699;
@@ -186,7 +186,7 @@ p {
 
 
 .background-signup {
-    background-image: url(/assets/images/chef.jpg);
+    background-image: url(../assets/images/chef.jpg);
     background-size: cover;
     height: 1200PX;
 }
