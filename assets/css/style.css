@@ -69,6 +69,10 @@ p {
     list-style: none;
 }
 
+.menu-li:hover {
+    text-decoration: 2px underline #fff;
+}
+
 .menu-li a {
     text-decoration: none;
     font-family: Varela Round, sans-serif;
