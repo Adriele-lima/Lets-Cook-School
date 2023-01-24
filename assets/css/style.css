@@ -164,7 +164,7 @@ p {
 }
 
 .dessert-photo {
-    background-image: url(../assets/images/dessert.jpg);
+    background-image: url(../images/dessert.jpg);
     width: 45%;
     height: 560px;
     border: 2px ridge #9d9699;
