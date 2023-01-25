@@ -31,5 +31,11 @@ Let's Cook School is a site for amatur people that wants to learn how to cook. T
 
     ![Sign-Up](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/sign-up-page.jpg)
 
-##Testing
+- __Footer__
+
+    - The footer section includes links to the relevant social media sites for Let's Cook School. The links will open to a new tab to allow easy navigation for the user. 
+    
+![Footer](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/footer.jpg)
+
+## Testing
 

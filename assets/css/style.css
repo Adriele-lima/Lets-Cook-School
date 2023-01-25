@@ -179,7 +179,6 @@ p {
 
 .small {
     color: #f5f2f2;
-    width: 50%;
     font-size: 15px;
 }
 
@@ -306,6 +305,18 @@ footer {
         height: 700px;
     }
 
+    .main-courses h2 {
+        font-size: 20px;
+    }
+
+    .main-courses p {
+        font-size: 18px;
+    }
+
+    .list {
+        font-size: 18px;
+    }
+
     .bread-photo, .pasta-photo, .seafood-photo, .dessert-photo {
         height: 725px;
         background-position: center;
@@ -329,6 +340,10 @@ footer {
         flex-direction: column;
     }
 
+    .menu-li a {
+        font-size: 15px;
+    }
+
     .sign-up-box {
         width: 300px;
         height: 700px;
@@ -337,6 +352,18 @@ footer {
 
     .bread, .pasta, .seafood, .dessert {
         width: 90%;
+    }
+
+    .main-courses h2 {
+        font-size: 20px;
+    }
+
+    .main-courses p {
+        font-size: 18px;
+    }
+
+    .list {
+        font-size: 18px;
     }
 
     .bread-photo, .pasta-photo, .seafood-photo, .dessert-photo {
