@@ -1,6 +1,6 @@
 # Let's Cook School
 
-Let's Cook School is a site for amatur people that wants to learn how to cook. Our school will provide the best of gastronomic experience, and you will have fun while you learn how to do delicius food! Our school is located in Northside Dublin, only 15 min driving from city center.
+Let's Cook School is a site for amatur people that wants to learn how to cook. The school will provide the best of gastronomic experience, and you will have fun while you learn how to do delicius food! Our school is located in Northside Dublin, only 15 min driving from city center.
 
 ![Responsive](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/Responsive.jpg)
 
@@ -15,12 +15,21 @@ Let's Cook School is a site for amatur people that wants to learn how to cook. O
 
 - __Home Page__
 
-    - We have the some useful information about our school such as opening times, contacting information and address with a live map.
+    - The home page has some useful information about our school such as opening times, contacting information and address with a live map.
 
 ![Home-Page](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/home-page.jpg)
 
 - __Courses__
 
-    - We have a list of courses that we offer with all the details, price and schedule times.
+    - The courses section has a list of courses that we offer with all the details, price and schedule times.
 
-![Courses](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/courses%20menu.jpg)
+![Courses](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/courses-menu.jpg)
+
+- __Sign Up__
+
+    - The sign up page has a form that will collect your details, so then you can get in touch with more information about the course you have interest.
+
+    ![Sign-Up](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/sign-up-page.jpg)
+
+##Testing
+
