@@ -39,3 +39,20 @@ Let's Cook School is a site for amatur people that wants to learn how to cook. T
 
 ## Testing
 
+## Bugs
+
+## Validator Testing
+
+## Testing
+
+- __Solved Bugs__
+
+- __Unfixed Bugs__
+
+## Deployment
+
+## Credits
+
+- __Content__
+
+- __Media__
