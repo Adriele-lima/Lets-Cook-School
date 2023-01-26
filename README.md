@@ -51,7 +51,7 @@ Let's Cook School is a site for amatur people that wants to learn how to cook. T
 
 - __Solved Bugs__
 
-    - When I deployed my project to GitHub Pages I discovered that images was not loading and I looked into Slack and I found an student's question related to the same problem and I found what I did wrong. Basically I didn't add the relative path on the image "../images/photo.jpn). After I update the code, my page loaded all the pictures.
+    - When I deployed my project to GitHub Pages I discovered that images were not loading and I looked into Slack and I found an student's question related to the same problem and I found what I did wrong. Basically I didn't add the relative path on the background-image "../images/photo.jpn". After I update the code, my page loaded all the pictures.
 
 - __Unfixed Bugs__
 
@@ -65,7 +65,7 @@ No unfixed bugs.
 
     - After I have a look, all the errors were fixed.
 
-![Erros]()
+![Erros](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/Error.jpg)
 
 - CSS
 
@@ -73,11 +73,28 @@ No unfixed bugs.
 
 - Accessibility
 
+    - I confirmed that the colors and fonts chosen are easy to read and acessible by running it through lighthouse in devtools.
+
+![lighthouse](https://github.com/Adriele-lima/Portfolio-1/blob/main/assets/images/Light-house.jpg)
 
 ## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follow:
+    - In the GitHub repository, navigate to the settings tab;
+    - On the right menu select "pages";
+    - On The section "Build and Deployment" select your branch on the dropdown menu and selec "main";
+    - After save and wait a few minutes, the link for your live site will be on the top of the page.
+
+The live link can be found here [Let's Cook School](https://adriele-lima.github.io/Portfolio-1/)
 
 ## Credits
 
 - __Content__
 
+- [CSS TRICKS](https://css-tricks.com/snippets/css/) Helped me a lot with some CSS coding and the most used code from there was the DISPLAY FLEX content.
+
 - __Media__
+
+- All the media pictures are from [Pexels](https://www.pexels.com/)
+
+- Some of the text were from [Dublin Cookery School](https://www.dublincookeryschool.ie/courses/the-beauty-of-bread-day)
