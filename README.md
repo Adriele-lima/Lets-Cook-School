@@ -91,7 +91,7 @@ The live link can be found here [Let's Cook School](https://adriele-lima.github.
 
 - __Content__
 
-- [CSS TRICKS](https://css-tricks.com/snippets/css/) Helped me a lot with some CSS coding and the most used code from there was the DISPLAY FLEX content.
+- [CSS TRICKS](https://css-tricks.com/snippets/css/) Helped me a lot with some CSS coding and the most used code from there was the DISPLAY FLEX.
 
 - The link to submit the form was taken from CI [Love Running project](https://code-institute-org.github.io/love-running-2.0/signup.html)
 
