@@ -39,15 +39,40 @@ Let's Cook School is a site for amatur people that wants to learn how to cook. T
 
 ## Testing
 
+- I tested that this page works in differents browsers: Firefox and Microsoft Edge.
+
+- I confirm that this project is responsive, looks good and functions on all standart screen sizes using the devtools device toolbar.
+
+- I confirm that the navigation, header, courses page and sign up page are all readable and easy to understand.
+
+- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, only numbers on the phone field and the submit button works.
+
 ## Bugs
-
-## Validator Testing
-
-## Testing
 
 - __Solved Bugs__
 
+    - When I deployed my project to GitHub Pages I discovered that images was not loading and I looked into Slack and I found an student's question related to the same problem and I found what I did wrong. Basically I didn't add the relative path on the image "../images/photo.jpn). After I update the code, my page loaded all the pictures.
+
 - __Unfixed Bugs__
+
+No unfixed bugs.
+
+## Validator Testing
+
+- HTML
+
+    - Some erros were returned on [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+    - After I have a look, all the errors were fixed.
+
+![Erros]()
+
+- CSS
+
+    - No errors were returned on [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+- Accessibility
+
 
 ## Deployment
 
