@@ -10,6 +10,8 @@ body {
     background-color: aliceblue;
 }
 
+/* Header and Menu */
+
 header {
     background-color: #3C3332;
     display: flex;
@@ -37,26 +39,12 @@ p {
     font-size: 20px;
 }
 
-.home-background {
-    background-image: url(../images/kitchen.jpeg);
-    background-size: cover;
-    height: max-content;
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-
 .header a {
     text-decoration: none;
     font-family: Varela Round, sans-serif;
     color: #fff;
     text-shadow: 3px 3px 4px #926F5B;
     font-size: 35px;
-}
-
-.map iframe{
-    width: 100%;
-    height: 400px;
 }
 
 .menu {
@@ -81,7 +69,18 @@ p {
     font-size: 25px;
 }
 
-.main2 {
+/* Home Page */
+
+.home-background {
+    background-image: url(../images/kitchen.jpeg);
+    background-size: cover;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.main {
     padding: 45px;
     display: flex;
     flex-flow: column wrap;
@@ -104,6 +103,13 @@ p {
     border: 2px ridge #9d9699;
     box-shadow: 10px 10px #9d969983;
 }
+
+.map iframe{
+    width: 100%;
+    height: 400px;
+}
+
+/* Courses */
 
 .main-courses {
     padding: 30px;
@@ -182,11 +188,11 @@ p {
     font-size: 15px;
 }
 
+/* Sign up */
 
 .main-sign-up{
     padding: 20px;
 }
-
 
 .background-signup {
     background-image: url(../images/chef.jpg);
@@ -218,8 +224,7 @@ p {
 .sign-up-box label {
     padding: 10px 10px 10px 0;
     color: #e3e2de;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 .input{
@@ -255,6 +260,8 @@ p {
     border: 1px solid #312a29;
 }
 
+/* Footer */
+
 footer {
     height: 10px;
     padding: 10px;
@@ -271,6 +278,38 @@ footer {
 .social-media a{
     text-decoration: none;
     color: #312a29;
+}
+
+/* Submit Page */
+
+.submit-page {
+    background-image: url(../images/thank-you.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800PX;
+}
+
+.thank-you {
+    padding: 20px 15px 0;
+    border: 1px solid #312a29;
+    width: 60%;
+    height: 150px;
+    text-align: center;
+    background-color: #9b8274bb;
+    margin-top: 2%;
+    margin-left: 20%;
+    border-radius: 30px;
+    background-position: center;
+}
+
+.thank-you h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #f7f5f4a8;
+}
+
+.thank-you p {
+    color: #1a1717;
 }
 
 @media screen and (max-width: 1500px) {
@@ -326,6 +365,14 @@ footer {
         width: 300px;
         height: 700px;
         margin: 20px;
+    }
+
+    .thank-you {
+        height: 150px; 
+    }
+
+    .thank-you h1 {
+        font-size: 30px;
     }
 }
 
