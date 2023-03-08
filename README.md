@@ -85,7 +85,7 @@ No unfixed bugs.
     - On The section "Build and Deployment" select your branch on the dropdown menu and selec "main";
     - After save and wait a few minutes, the link for your live site will be on the top of the page.
 
-The live link can be found here [Let's Cook School](https://adriele-lima.github.io/Portfolio-1/)
+The live link can be found here [Let's Cook School](https://adriele-lima.github.io/Lets-Cook-School/)
 
 ## Credits
 
